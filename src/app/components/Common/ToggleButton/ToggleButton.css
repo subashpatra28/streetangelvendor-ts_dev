@@ -1,0 +1,110 @@
+.ToggleBtn.DeviceStatus.EditStatus {
+  margin:0;
+}
+.ToggleBtn .toggle-button-cover{
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  float: left;
+  margin: 21px 0px 0px 10px;
+}
+.ToggleBtn .button-cover {
+  height: auto;
+  margin: 0;
+  background-color: transparent;
+  box-shadow: 0 10px 20px -8px transparent;
+  border-radius: 4px;
+}
+.ToggleBtn .button-cover, .ToggleBtn .knobs, .ToggleBtn .layer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.ToggleBtn .button{
+  position: relative;
+  top: 50%;
+  width: 74px;
+  height: 36px;
+  margin: -20px auto 0 auto;
+  overflow: hidden;
+}
+
+.ToggleBtn .checkbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+.ToggleBtn .knobs{
+  z-index: 2;
+}
+.ToggleBtn #button-2 .knobs:before {
+    content: 'YES';
+}
+.ToggleBtn #button-2 .knobs:before, .ToggleBtn #button-2 .knobs:after{
+  content: 'YES';
+  position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 10px 4px;
+    background-color: #8bc34a;
+    border-radius: 50%;
+    transition: 0.3s ease all;
+}
+.ToggleBtn #button-2 .knobs:after {
+    right: -30px;
+    left: auto;
+    background-color: #e85156;
+}
+.ToggleBtn #button-2 .checkbox:checked + .knobs:before {
+  left: -30px;
+}
+.ToggleBtn #button-2 .checkbox:checked ~ .layer {
+  background-color: #fcebeb;
+}
+.ToggleBtn #button-2 .checkbox:checked + .knobs:after {
+  right: 4px;
+}
+.ToggleBtn #button-2 .knobs:after {
+    content: 'NO';
+}
+.ToggleBtn .button.r, .ToggleBtn .button.r .layer {
+    border-radius: 100px;
+}
+.ToggleBtn .layer {
+    width: 100%;
+    background-color: rgba(139, 194, 74,0.5);
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+.clearfix{
+  width:100%;
+  display: block;
+  clear: both;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+button, input {
+  overflow: visible;
+}
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+}

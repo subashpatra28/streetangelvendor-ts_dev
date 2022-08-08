@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="109.117px" height="109.117px" viewBox="0 0 109.117 109.117" enable-background="new 0 0 109.117 109.117"
+	 xml:space="preserve">
+<g id="Group_2" transform="translate(-477.133 -356.133)">
+	<g id="Group_1" transform="translate(46.383 46.383)">
+		<linearGradient id="Ellipse_1_1_" gradientUnits="userSpaceOnUse" x1="445.8247" y1="364.3086" x2="524.793" y2="364.3086">
+			<stop  offset="0" style="stop-color:#9F76F5"/>
+			<stop  offset="1" style="stop-color:#F466C4"/>
+		</linearGradient>
+		
+			<circle id="Ellipse_1" fill="none" stroke="url(#Ellipse_1_1_)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" cx="485.309" cy="364.309" r="39.134"/>
+		
+			<linearGradient id="Ellipse_3_1_" gradientUnits="userSpaceOnUse" x1="438.8369" y1="364.3105" x2="531.7813" y2="364.3105" gradientTransform="matrix(-0.9999 0.0148 -0.0148 -0.9999 975.9556 721.3989)">
+			<stop  offset="0" style="stop-color:#9F76F5"/>
+			<stop  offset="1" style="stop-color:#F466C4"/>
+		</linearGradient>
+		
+			<circle id="Ellipse_3" fill="none" stroke="url(#Ellipse_3_1_)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" cx="485.31" cy="364.309" r="46.122"/>
+		<linearGradient id="Ellipse_4_1_" gradientUnits="userSpaceOnUse" x1="431.1499" y1="364.3086" x2="539.4678" y2="364.3086">
+			<stop  offset="0" style="stop-color:#9F76F5"/>
+			<stop  offset="1" style="stop-color:#F466C4"/>
+		</linearGradient>
+		
+			<circle id="Ellipse_4" fill="none" stroke="url(#Ellipse_4_1_)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" cx="485.309" cy="364.309" r="53.809"/>
+		
+			<linearGradient id="Ellipse_2_1_" gradientUnits="userSpaceOnUse" x1="452.1152" y1="364.6563" x2="519.2031" y2="364.6563" gradientTransform="matrix(-0.9992 0.0392 -0.0392 -0.9992 985.2439 709.9888)">
+			<stop  offset="0" style="stop-color:#9F76F5"/>
+			<stop  offset="1" style="stop-color:#F466C4"/>
+		</linearGradient>
+		
+			<circle id="Ellipse_2" fill="none" stroke="url(#Ellipse_2_1_)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" cx="485.657" cy="364.658" r="33.194"/>
+	</g>
+</g>
+</svg>

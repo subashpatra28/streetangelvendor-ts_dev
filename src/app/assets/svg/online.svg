@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 194 186" class="circliful">undefined<circle cx="100" cy="100" r="57" class="border" fill="none" stroke="#d6d8e4" stroke-width="14" stroke-dasharray="360" transform="rotate(-90,100,100)"></circle>
+    <circle class="circle" cx="100" cy="100" r="57" fill="none" stroke="#264AC9" stroke-width="14" stroke-dasharray="252, 20000" transform="rotate(-90,100,100)"></circle>
+    <circle cx="100" cy="100" r="28.5" fill="none"></circle>undefined<text class="timer" text-anchor="middle" x="100" y="110" style="font-size: 22px; undefined;" fill="#2e323c">70%</text>
+</svg>

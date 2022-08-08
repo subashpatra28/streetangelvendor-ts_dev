@@ -1,0 +1,5160 @@
+{
+  "management-role": [
+    {
+      "description": "test1",
+      "name": "Test100",
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": true,
+          "read": false
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": true,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": true,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": true,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": true,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "status": true,
+      "liveStreaming": true,
+      "id": 84
+    },
+    {
+      "description": "test3",
+      "name": "Test3",
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "status": true,
+      "liveStreaming": false,
+      "id": 95
+    },
+    {
+      "id": 96,
+      "name": "Test0",
+      "description": "test0",
+      "liveStreaming": false,
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": true,
+          "read": false
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "status": false,
+      "createdDate": "04:52:03 AM 20-05-2022",
+      "updatedDate": "11:42:03 AM 20-05-2022"
+    },
+    {
+      "description": "test5",
+      "name": "Test5",
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": true,
+          "read": false
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "status": true,
+      "liveStreaming": true,
+      "id": 97
+    },
+    {
+      "id": 100,
+      "name": "Test6",
+      "description": "test6",
+      "liveStreaming": false,
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "status": true,
+      "createdDate": "11:30:56 AM 23-05-2022",
+      "updatedDate": "11:30:56 AM 23-05-2022"
+    },
+    {
+      "description": "testing7",
+      "name": "Test77",
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "status": true,
+      "liveStreaming": false,
+      "id": 103
+    },
+    {
+      "description": "testing4",
+      "name": "Test41",
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "status": false,
+      "liveStreaming": true,
+      "id": 69
+    },
+    {
+      "id": 21,
+      "name": "test999",
+      "description": "testing9",
+      "liveStreaming": false,
+      "permissions": [
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": true,
+          "read": false
+        }
+      ],
+      "status": true,
+      "createdDate": "12:02:39 PM 18-01-2022",
+      "updatedDate": "04:42:13 PM 05-04-2022"
+    },
+    {
+      "description": "testing3",
+      "name": "test3",
+      "permissions": [
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": true,
+          "read": false
+        }
+      ],
+      "status": true,
+      "liveStreaming": false,
+      "id": 25
+    },
+    {
+      "permissions": [
+        {
+          "permissionId": "1",
+          "read": true
+        },
+        {
+          "permissionId": "2",
+          "write": true
+        },
+        {
+          "permissionId": "3",
+          "read": true,
+          "write": true
+        }
+      ],
+      "description": "new role description",
+      "liveStreaming": false,
+      "name": "new role",
+      "status": false,
+      "id": 105
+    },
+    {
+      "description": "asfasf 1r ",
+      "liveStreaming": true,
+      "name": "24124",
+      "status": true,
+      "createdAt": 1654248751215,
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "id": 107
+    },
+    {
+      "description": "asfasfasf",
+      "liveStreaming": true,
+      "name": "asf21412",
+      "status": true,
+      "createdAt": 1654248854365,
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "id": 108
+    },
+    {
+      "description": "asfas fasfa",
+      "liveStreaming": true,
+      "name": "124124",
+      "status": false,
+      "createdAt": 1654248955188,
+      "permissions": [
+        {
+          "permissionId": 1,
+          "permission": "Monitoring",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 2,
+          "permission": "Live Tracking",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 3,
+          "permission": "Vehicle Journey",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "id": 109
+    },
+    {
+      "description": "zvasfafa fa f12124124",
+      "name": "11111111",
+      "permissions": [
+        {
+          "permissionId": "1",
+          "permission": "Monitoring",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": "2",
+          "permission": "Live Tracking",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": "3",
+          "permission": "Vehicle Journey",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": "4",
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        }
+      ],
+      "status": false,
+      "liveStreaming": true,
+      "id": 110
+    },
+    {
+      "description": "askfaksfj als f kal;sf",
+      "liveStreaming": false,
+      "name": "new role test",
+      "status": false,
+      "permissions": [
+        {
+          "permissionId": "1",
+          "permission": "Monitoring",
+          "write": false,
+          "read": true
+        },
+        {
+          "permissionId": "2",
+          "permission": "Live Tracking",
+          "write": true,
+          "read": false
+        },
+        {
+          "permissionId": "3",
+          "permission": "Vehicle Journey",
+          "write": true,
+          "read": true
+        },
+        {
+          "permissionId": 4,
+          "permission": "Driver Statistics",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 5,
+          "permission": "Vehicle Trip",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 6,
+          "permission": "Low Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 7,
+          "permission": "High Events",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 8,
+          "permission": "Request Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 9,
+          "permission": "Location Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 10,
+          "permission": "Event Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 11,
+          "permission": "Video Request Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 12,
+          "permission": "Device Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 13,
+          "permission": "Organization Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 14,
+          "permission": "Roles Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 15,
+          "permission": "Users Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 16,
+          "permission": "Organization Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 17,
+          "permission": "Support Tickets",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 18,
+          "permission": "Device Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 19,
+          "permission": "Driver Management",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 20,
+          "permission": "Import Device",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 21,
+          "permission": "GeoFencing",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 22,
+          "permission": "GeoFencing Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 23,
+          "permission": "VehicleTrip Report",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 24,
+          "permission": "First Connect",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 25,
+          "permission": "Device Status",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 26,
+          "permission": "Admin Notes",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 27,
+          "permission": "Crash Event",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 28,
+          "permission": "Panic Button Video",
+          "write": false,
+          "read": false
+        },
+        {
+          "permissionId": 29,
+          "permission": "Support Ticket",
+          "write": false,
+          "read": false
+        }
+      ],
+      "id": 111
+    }
+  ],
+  "resource-countries-dailcode": [
+    "+1",
+    "+7",
+    "+20",
+    "+27",
+    "+30",
+    "+31",
+    "+32",
+    "+33",
+    "+34",
+    "+36",
+    "+38",
+    "+39",
+    "+40",
+    "+41",
+    "+43",
+    "+44",
+    "+45",
+    "+46",
+    "+47",
+    "+48",
+    "+49",
+    "+51",
+    "+52",
+    "+53",
+    "+54",
+    "+55",
+    "+56",
+    "+57",
+    "+58",
+    "+60",
+    "+61",
+    "+62",
+    "+63",
+    "+64",
+    "+65",
+    "+66",
+    "+70",
+    "+81",
+    "+82",
+    "+84",
+    "+86",
+    "+90",
+    "+91",
+    "+92",
+    "+93",
+    "+94",
+    "+95",
+    "+98",
+    "+211",
+    "+212",
+    "+213",
+    "+216",
+    "+218",
+    "+220",
+    "+221",
+    "+222",
+    "+223",
+    "+224",
+    "+225",
+    "+226",
+    "+227",
+    "+228",
+    "+229",
+    "+230",
+    "+231",
+    "+232",
+    "+233",
+    "+234",
+    "+235",
+    "+236",
+    "+237",
+    "+238",
+    "+239",
+    "+240",
+    "+241",
+    "+242",
+    "+244",
+    "+245",
+    "+246",
+    "+248",
+    "+249",
+    "+250",
+    "+251",
+    "+252",
+    "+253",
+    "+254",
+    "+255",
+    "+256",
+    "+257",
+    "+258",
+    "+260",
+    "+261",
+    "+262",
+    "+263",
+    "+264",
+    "+265",
+    "+266",
+    "+267",
+    "+268",
+    "+269",
+    "+290",
+    "+291",
+    "+297",
+    "+298",
+    "+299",
+    "+350",
+    "+351",
+    "+352",
+    "+353",
+    "+354",
+    "+355",
+    "+356",
+    "+357",
+    "+358",
+    "+359",
+    "+370",
+    "+371",
+    "+372",
+    "+373",
+    "+374",
+    "+375",
+    "+376",
+    "+377",
+    "+378",
+    "+380",
+    "+381",
+    "+385",
+    "+386",
+    "+387",
+    "+389",
+    "+420",
+    "+421",
+    "+423",
+    "+500",
+    "+501",
+    "+502",
+    "+503",
+    "+504",
+    "+505",
+    "+506",
+    "+507",
+    "+508",
+    "+509",
+    "+590",
+    "+591",
+    "+592",
+    "+593",
+    "+594",
+    "+595",
+    "+596",
+    "+597",
+    "+598",
+    "+599",
+    "+670",
+    "+672",
+    "+673",
+    "+674",
+    "+675",
+    "+676",
+    "+677",
+    "+678",
+    "+679",
+    "+680",
+    "+681",
+    "+682",
+    "+683",
+    "+684",
+    "+686",
+    "+687",
+    "+688",
+    "+689",
+    "+690",
+    "+691",
+    "+692",
+    "+850",
+    "+852",
+    "+853",
+    "+855",
+    "+856",
+    "+880",
+    "+886",
+    "+960",
+    "+961",
+    "+962",
+    "+963",
+    "+964",
+    "+965",
+    "+966",
+    "+967",
+    "+968",
+    "+970",
+    "+971",
+    "+972",
+    "+973",
+    "+974",
+    "+975",
+    "+976",
+    "+977",
+    "+992",
+    "+994",
+    "+995",
+    "+996",
+    "+998",
+    "+1242",
+    "+1246",
+    "+1264",
+    "+1268",
+    "+1284",
+    "+1340",
+    "+1345",
+    "+1441",
+    "+1473",
+    "+1649",
+    "+1664",
+    "+1670",
+    "+1671",
+    "+1684",
+    "+1758",
+    "+1767",
+    "+1784",
+    "+1787",
+    "+1809",
+    "+1868",
+    "+1869",
+    "+1876",
+    "+7370"
+  ],
+  "resource-roles": [
+    {
+      "id": 1,
+      "name": "Monitoring"
+    },
+    {
+      "id": 2,
+      "name": "Live Tracking"
+    },
+    {
+      "id": 3,
+      "name": "Vehicle Journey"
+    },
+    {
+      "id": 4,
+      "name": "Driver Statistics"
+    },
+    {
+      "id": 5,
+      "name": "Vehicle Trip"
+    },
+    {
+      "id": 6,
+      "name": "Low Events"
+    },
+    {
+      "id": 7,
+      "name": "High Events"
+    },
+    {
+      "id": 8,
+      "name": "Request Video"
+    },
+    {
+      "id": 9,
+      "name": "Location Report"
+    },
+    {
+      "id": 10,
+      "name": "Event Report"
+    },
+    {
+      "id": 11,
+      "name": "Video Request Report"
+    },
+    {
+      "id": 12,
+      "name": "Device Report"
+    },
+    {
+      "id": 13,
+      "name": "Organization Report"
+    },
+    {
+      "id": 14,
+      "name": "Roles Management"
+    },
+    {
+      "id": 15,
+      "name": "Users Management"
+    },
+    {
+      "id": 16,
+      "name": "Organization Management"
+    },
+    {
+      "id": 17,
+      "name": "Support Tickets"
+    },
+    {
+      "id": 18,
+      "name": "Device Management"
+    },
+    {
+      "id": 19,
+      "name": "Driver Management"
+    },
+    {
+      "id": 20,
+      "name": "Import Device"
+    },
+    {
+      "id": 21,
+      "name": "GeoFencing"
+    },
+    {
+      "id": 22,
+      "name": "GeoFencing Event"
+    },
+    {
+      "id": 23,
+      "name": "VehicleTrip Report"
+    },
+    {
+      "id": 24,
+      "name": "First Connect"
+    },
+    {
+      "id": 25,
+      "name": "Device Status"
+    },
+    {
+      "id": 26,
+      "name": "Admin Notes"
+    },
+    {
+      "id": 27,
+      "name": "Crash Event"
+    },
+    {
+      "id": 28,
+      "name": "Panic Button Video"
+    }
+  ],
+  "ct-admin-management": [
+    {
+      "id": 40,
+      "userName": "test51",
+      "password": "Test5@546213",
+      "email": "test5@xyz.com",
+      "mobile": "0147852366",
+      "mobileCode": "+7",
+      "roleId": 69,
+      "allowAlertEmail": true,
+      "allowMaintenanceEmail": false,
+      "allowWelcomeEmail": true,
+      "projectId": "1,2,6,7",
+      "status": false,
+      "createdOn": 1652340838,
+      "updatedOn": 1652340873,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "role": {
+        "id": 69,
+        "name": "Test4"
+      }
+    },
+    {
+      "id": 42,
+      "userName": "Test3",
+      "password": "Test#@456",
+      "email": "Test3@xyz.com",
+      "mobile": "0147852369",
+      "mobileCode": "+27",
+      "roleId": 69,
+      "allowAlertEmail": true,
+      "allowMaintenanceEmail": false,
+      "allowWelcomeEmail": true,
+      "projectId": "3,8",
+      "status": false,
+      "createdOn": 1652959312,
+      "updatedOn": 1652959312,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "role": {
+        "id": 69,
+        "name": "Test4"
+      }
+    },
+    {
+      "id": 43,
+      "userName": "Test1",
+      "password": "Test1@xyz",
+      "email": "test1@xyz.com",
+      "mobile": "3698521470",
+      "mobileCode": "+20",
+      "roleId": 97,
+      "allowAlertEmail": true,
+      "allowMaintenanceEmail": true,
+      "allowWelcomeEmail": true,
+      "projectId": "4",
+      "status": true,
+      "createdOn": 1653472556,
+      "updatedOn": 1653472556,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "role": {
+        "id": 97,
+        "name": "Test5"
+      }
+    },
+    {
+      "allowAlertEmail": true,
+      "allowMaintenanceEmail": false,
+      "allowWelcomeEmail": true,
+      "email": "asfasf@gmmail.com",
+      "mobile": "948789787897",
+      "mobileCode": "+27",
+      "projectId": "1,4,6",
+      "password": "Abcd@123",
+      "roleId": 95,
+      "status": false,
+      "userName": "asfas",
+      "id": 44,
+      "role": {
+        "id": 95,
+        "name": "Test5"
+      }
+    },
+    {
+      "allowAlertEmail": false,
+      "allowMaintenanceEmail": true,
+      "allowWelcomeEmail": true,
+      "email": "asfa@gmail.com",
+      "mobile": "65489756456497",
+      "mobileCode": "+30",
+      "projectId": "6,4,1",
+      "password": "Abcd@1234",
+      "roleId": 100,
+      "role": {
+        "id": 69,
+        "name": "Test4"
+      },
+      "status": false,
+      "userName": "124124",
+      "id": 45
+    }
+  ],
+  "organization-management": [
+    {
+      "name": "Tata motor cam pvt1",
+      "postalCode": "394244",
+      "contactPersonName": "viral",
+      "contactPersonMobile": "8511391042",
+      "contactPersonMobileCode": "+10",
+      "faxNumber": "8511391023",
+      "website": "http://viral.com",
+      "email": "viral@gmail.com",
+      "alternativeEmail": "patel@gmail.com",
+      "logo": true,
+      "city": "surat",
+      "country": "india",
+      "officeNumber": "8511391045",
+      "organizationAddress": "at po valvada",
+      "service": "virap patel",
+      "state": "gujrat",
+      "id": 2
+    },
+    {
+      "name": "test10",
+      "postalCode": "110010",
+      "contactPersonName": "test10",
+      "contactPersonMobile": "6549782135",
+      "contactPersonMobileCode": "+20",
+      "faxNumber": "6547891235",
+      "website": "https://google.com",
+      "email": "test10@gmail.com",
+      "alternativeEmail": "test101@gmail.com",
+      "logo": true,
+      "city": "Ahmeabad",
+      "country": "India",
+      "officeNumber": "6547891235",
+      "organizationAddress": "",
+      "service": "It",
+      "state": "Gujurat",
+      "id": 4
+    },
+    {
+      "name": "Test11",
+      "postalCode": "110011",
+      "contactPersonName": "Test11",
+      "contactPersonMobile": "6549782315",
+      "contactPersonMobileCode": "+30",
+      "faxNumber": "6548792135",
+      "website": "http://google.com",
+      "email": "test11@gmail.com",
+      "alternativeEmail": "test111@gmail.com",
+      "logo": true,
+      "city": "Ahmedabad",
+      "country": "India",
+      "officeNumber": "6547891235",
+      "organizationAddress": "12414124124",
+      "service": "IT",
+      "state": "GujArat",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "test12",
+      "userName": "trsettdyhj",
+      "password": "As#jlkkjgjg546",
+      "organizationAddress": "",
+      "city": "jlkmk;lm.",
+      "state": "fdcgh",
+      "country": "hjkn",
+      "postalCode": "111000",
+      "service": "uhkjnm",
+      "contactPersonName": "kjghgbcv",
+      "contactPersonMobileCode": "+20",
+      "contactPersonMobile": "4563217895",
+      "officeNumber": "4563217895",
+      "faxNumber": "4563217895",
+      "website": "http://google.com",
+      "email": "test12@gmail.com",
+      "alternativeEmail": "test12@gmail.com",
+      "logo": true,
+      "renewalDate": "2022-12-12T03:46:14.388+00:00",
+      "createdOn": 1642075504,
+      "updatedOn": 1642075504,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "name": "test",
+      "postalCode": "111113",
+      "contactPersonName": "test test",
+      "contactPersonMobile": "5641325648",
+      "contactPersonMobileCode": "+91",
+      "faxNumber": "35745681124124",
+      "website": "http://google.com",
+      "email": "test@gmail.com",
+      "alternativeEmail": "test@gmail.com",
+      "logo": true,
+      "city": "124124",
+      "country": "124124124",
+      "officeNumber": "35745681124124",
+      "organizationAddress": "124124124",
+      "service": "124124124",
+      "state": "12412412",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "Test1",
+      "userName": "testing1",
+      "password": "Aw@54698721",
+      "organizationAddress": "",
+      "city": "Ahmedabad",
+      "state": "Gujurat",
+      "country": "India",
+      "postalCode": "110000",
+      "service": "IT",
+      "contactPersonName": "TestingPerson1",
+      "contactPersonMobileCode": "+31",
+      "contactPersonMobile": "5698231477",
+      "officeNumber": "5698231477",
+      "faxNumber": "5698231477",
+      "website": "http://google.com",
+      "email": "test1@gmail.com",
+      "alternativeEmail": "test11@gmail.com",
+      "logo": true,
+      "renewalDate": "2022-01-31T12:41:47.595+00:00",
+      "createdOn": 1642596113,
+      "updatedOn": 1642596113,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 10,
+      "name": "test2",
+      "userName": "testing2",
+      "password": "Zx@54698",
+      "organizationAddress": "",
+      "city": "Ahmedabad",
+      "state": "Gujurat",
+      "country": "India",
+      "postalCode": "110012",
+      "service": "Production",
+      "contactPersonName": "testPerson2",
+      "contactPersonMobileCode": "+32",
+      "contactPersonMobile": "2359741561",
+      "officeNumber": "2359741561",
+      "faxNumber": "2359741561",
+      "website": "http://google1.com",
+      "email": "test2@gmail.com",
+      "alternativeEmail": "test21@gmail.com",
+      "logo": true,
+      "renewalDate": "2022-01-29T12:46:37.444+00:00",
+      "createdOn": 1642596401,
+      "updatedOn": 1642596401,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "name": "Test312",
+      "postalCode": "100000",
+      "contactPersonName": "test3 contact",
+      "contactPersonMobile": "5648971325",
+      "contactPersonMobileCode": "+15",
+      "faxNumber": "5648971325",
+      "website": "http://test3.com",
+      "email": "tset3@test.com",
+      "alternativeEmail": "tset3@test1.com",
+      "logo": true,
+      "city": "124124124",
+      "country": "124124124",
+      "officeNumber": "5648971325",
+      "organizationAddress": "Test3 Address",
+      "service": "Production",
+      "state": "12412412",
+      "id": 11
+    },
+    {
+      "name": "Test97",
+      "postalCode": "123443333",
+      "contactPersonName": "jenish",
+      "contactPersonMobile": "1234567890",
+      "contactPersonMobileCode": "+30",
+      "faxNumber": "33444444443",
+      "website": "http://google.com",
+      "email": "aaaaa@gmail.com",
+      "alternativeEmail": "g@gmail.com",
+      "logo": true,
+      "city": "124124",
+      "country": "124124124",
+      "officeNumber": "124124124124124",
+      "organizationAddress": "21124124",
+      "service": "124124124124",
+      "state": "1241241",
+      "id": 18
+    },
+    {
+      "id": 3,
+      "name": "testing3",
+      "userName": "test3",
+      "password": "Sd$654897123",
+      "organizationAddress": "",
+      "city": "Ahmedabad",
+      "state": "Gujurat",
+      "country": "India",
+      "postalCode": "110014",
+      "service": "Production",
+      "contactPersonName": "Test3 contact",
+      "contactPersonMobileCode": "+20",
+      "contactPersonMobile": "6458971235",
+      "officeNumber": "6458971235",
+      "faxNumber": "6458971235",
+      "website": "http://google.com",
+      "email": "test31@gmail.com",
+      "alternativeEmail": "test31@gmail.com",
+      "logo": true,
+      "renewalDate": "2022-05-26T00:00:00.000+00:00",
+      "createdOn": 1641981348,
+      "updatedOn": 1652342387,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 19,
+      "name": "Test5",
+      "userName": "testing5@gmail.com",
+      "password": "Test5@56487",
+      "organizationAddress": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postalCode": "112112",
+      "service": "",
+      "contactPersonName": "test5",
+      "contactPersonMobileCode": "+20",
+      "contactPersonMobile": "2036541789",
+      "officeNumber": "",
+      "faxNumber": "0147852369",
+      "website": "http://www.test5.com",
+      "email": "test5@gmail.com",
+      "alternativeEmail": "",
+      "logo": true,
+      "renewalDate": "2022-05-14T08:02:20.647+00:00",
+      "createdOn": 1652342548,
+      "updatedOn": 1652342548,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 7,
+      "name": "hari",
+      "userName": "testibbg",
+      "password": "gkhS#5649+312",
+      "organizationAddress": "abc yz",
+      "city": "ssuurraatt",
+      "state": "guj",
+      "country": "india",
+      "postalCode": "110011",
+      "service": "xyz",
+      "contactPersonName": "gs",
+      "contactPersonMobileCode": "+20",
+      "contactPersonMobile": "4567923125",
+      "officeNumber": "4567923125",
+      "faxNumber": "4567923125",
+      "website": "http://google.com",
+      "email": "testing@gmail.com",
+      "alternativeEmail": "testing1@gmail.com",
+      "logo": true,
+      "renewalDate": "2022-02-25T00:00:00.000+00:00",
+      "createdOn": 1642320407,
+      "updatedOn": 1645672138,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 12,
+      "name": "Test990",
+      "userName": "Test99",
+      "password": "@We321654",
+      "organizationAddress": "gujurat",
+      "city": "ahmedabad",
+      "state": "Gujurat",
+      "country": "ijndia",
+      "postalCode": "110012",
+      "service": "it",
+      "contactPersonName": "testing99",
+      "contactPersonMobileCode": "+32",
+      "contactPersonMobile": "3216458970",
+      "officeNumber": "0147852369",
+      "faxNumber": "2365897410",
+      "website": "http://test99.com",
+      "email": "test99@gmaail.com",
+      "alternativeEmail": "test99@gmail.com",
+      "logo": true,
+      "renewalDate": "2022-03-26T00:00:00.000+00:00",
+      "createdOn": 1646053565,
+      "updatedOn": 1646053638,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 13,
+      "name": "Test99",
+      "userName": "Test99User",
+      "password": "@wE5641238",
+      "organizationAddress": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postalCode": "110012",
+      "service": "",
+      "contactPersonName": "test99",
+      "contactPersonMobileCode": "+33",
+      "contactPersonMobile": "123658974056",
+      "officeNumber": "",
+      "faxNumber": "0231654789741",
+      "website": "http://test99.com",
+      "email": "test99@gmail.com",
+      "alternativeEmail": "test991@gmail.com",
+      "logo": true,
+      "renewalDate": "2022-03-31T09:25:03.966+00:00",
+      "createdOn": 1646213132,
+      "updatedOn": 1646213132,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 14,
+      "name": "wr",
+      "userName": "343423SF5",
+      "password": "12345678",
+      "organizationAddress": "aR",
+      "city": "er",
+      "state": "35",
+      "country": "sfsd",
+      "postalCode": "453455",
+      "service": "345",
+      "contactPersonName": "er",
+      "contactPersonMobileCode": "34",
+      "contactPersonMobile": "2255663388",
+      "officeNumber": "24234243423",
+      "faxNumber": "wr",
+      "website": "35",
+      "email": "wer@gmail.com",
+      "alternativeEmail": "ee",
+      "logo": true,
+      "renewalDate": "2022-04-25T10:57:05.056+00:00",
+      "createdOn": 1649674725,
+      "updatedOn": 1649674725,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 15,
+      "name": "Test4",
+      "userName": "test4@xyz.com",
+      "password": "Test4@546321",
+      "organizationAddress": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postalCode": "100014",
+      "service": "",
+      "contactPersonName": "Test4",
+      "contactPersonMobileCode": "+27",
+      "contactPersonMobile": "1478523690",
+      "officeNumber": "",
+      "faxNumber": "2365874109",
+      "website": "http://www.google.com",
+      "email": "test4@xyz.com",
+      "alternativeEmail": "",
+      "logo": true,
+      "renewalDate": "2022-05-27T06:17:11.609+00:00",
+      "createdOn": 1651558635,
+      "updatedOn": 1651558635,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 1,
+      "name": "Tata motor cam pvt123",
+      "userName": "viral patel",
+      "password": "123456789@@Er",
+      "organizationAddress": "dsfdsfdsfdsfds",
+      "city": "surat",
+      "state": "gujrat",
+      "country": "india",
+      "postalCode": "394248",
+      "service": "virap patel",
+      "contactPersonName": "viral",
+      "contactPersonMobileCode": "+91",
+      "contactPersonMobile": "8511391043",
+      "officeNumber": "8511391043",
+      "faxNumber": "8511391043",
+      "website": "http://viral.com",
+      "email": "viral123@gmail.com",
+      "alternativeEmail": "patel@gmail.com",
+      "logo": true,
+      "renewalDate": "2022-05-31T00:00:00.000+00:00",
+      "createdOn": 1640676195,
+      "updatedOn": 1651735548,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "id": 16,
+      "name": "Test100",
+      "userName": "test100",
+      "password": "Test@100",
+      "organizationAddress": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postalCode": "110000",
+      "service": "",
+      "contactPersonName": "test100",
+      "contactPersonMobileCode": "+27",
+      "contactPersonMobile": "0231654789",
+      "officeNumber": "",
+      "faxNumber": "2589631047",
+      "website": "http://www.google.com",
+      "email": "test100@gmail.com",
+      "alternativeEmail": "",
+      "logo": true,
+      "renewalDate": "2022-05-31T12:02:45.750+00:00",
+      "createdOn": 1651752170,
+      "updatedOn": 1651752170,
+      "createdBy": 1,
+      "updatedBy": 1
+    },
+    {
+      "alternativeEmail": "test7@zxy.com",
+      "city": "",
+      "contactPersonMobile": "2145879630",
+      "contactPersonName": "test7",
+      "contactPersonMobileCode": "+20",
+      "country": "",
+      "email": "test7@xyz.com",
+      "faxNumber": "7777777777",
+      "logo": true,
+      "name": "test7",
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "707070",
+      "service": "",
+      "state": "",
+      "id": 20
+    },
+    {
+      "alternativeEmail": "project61@xyz.com",
+      "city": "",
+      "contactPersonMobile": "1236547890",
+      "contactPersonName": "project6",
+      "contactPersonMobileCode": "+27",
+      "country": "",
+      "email": "project6@xyz.com",
+      "faxNumber": "0123654789",
+      "logo": true,
+      "name": "project6",
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "161616",
+      "service": "",
+      "state": "",
+      "id": 21
+    },
+    {
+      "alternativeEmail": "project61@xyz.com",
+      "city": "",
+      "contactPersonMobile": "1478523690",
+      "contactPersonName": "project6",
+      "contactPersonMobileCode": "+32",
+      "country": "",
+      "email": "project6@xyz.com",
+      "faxNumber": "0231456987",
+      "logo": true,
+      "name": "project6",
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "161616",
+      "service": "",
+      "state": "",
+      "id": 22
+    }
+  ],
+  "device-management": [
+    {
+      "id": 6,
+      "projectId": 1,
+      "driverManagementId": 1,
+      "vehicleRegestrationNo": "GJ-12-VP-8396",
+      "deviceId": 1010101010,
+      "insurerName": "ABC",
+      "policyNumber": "12345678",
+      "homeDepot": "sajh",
+      "fleetNumber": "12345678",
+      "description1": "Description 1",
+      "description2": "Description 2",
+      "status": true,
+      "createdOn": 1640678096,
+      "updatedOn": 1651570751,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 1,
+        "name": "Tata motor cam pvt123"
+      },
+      "project": {
+        "id": 1,
+        "name": "Project 101"
+      },
+      "driverManagement": {
+        "id": 1,
+        "name": "Tata motor cam pvt"
+      },
+      "createdDate": "07:54:56 AM 28-12-2021",
+      "updatedDate": "09:39:11 AM 03-05-2022"
+    },
+    {
+      "id": 22,
+      "projectId": 8,
+      "driverManagementId": 28,
+      "vehicleRegestrationNo": "21 BH 0001 AA",
+      "deviceId": 12547896,
+      "insurerName": "",
+      "policyNumber": "",
+      "homeDepot": "",
+      "fleetNumber": "",
+      "description1": "",
+      "description2": "",
+      "status": true,
+      "createdOn": 1650353817,
+      "updatedOn": 1651597499,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 8,
+        "name": "test"
+      },
+      "project": {
+        "id": 8,
+        "name": "test"
+      },
+      "driverManagement": {
+        "id": 28,
+        "name": "Test4"
+      },
+      "createdDate": "07:36:57 AM 19-04-2022",
+      "updatedDate": "05:04:59 PM 03-05-2022"
+    },
+    {
+      "id": 27,
+      "projectId": 2,
+      "driverManagementId": 28,
+      "vehicleRegestrationNo": "1111",
+      "deviceId": 22218,
+      "insurerName": "",
+      "policyNumber": "",
+      "homeDepot": "",
+      "fleetNumber": "",
+      "description1": "",
+      "description2": "",
+      "status": true,
+      "createdOn": 1651598967,
+      "updatedOn": 1651598967,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "project": {
+        "id": 2,
+        "name": "Project 201"
+      },
+      "driverManagement": {
+        "id": 28,
+        "name": "Test4"
+      },
+      "createdDate": "05:29:27 PM 03-05-2022",
+      "updatedDate": "05:29:27 PM 03-05-2022"
+    },
+    {
+      "id": 28,
+      "projectId": 2,
+      "driverManagementId": 28,
+      "vehicleRegestrationNo": "1111",
+      "deviceId": 1111,
+      "insurerName": "",
+      "policyNumber": "",
+      "homeDepot": "",
+      "fleetNumber": "",
+      "description1": "",
+      "description2": "",
+      "status": true,
+      "createdOn": 1651600298,
+      "updatedOn": 1651600312,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "project": {
+        "id": 2,
+        "name": "Project 201"
+      },
+      "driverManagement": {
+        "id": 28,
+        "name": "Test4"
+      },
+      "createdDate": "05:51:38 PM 03-05-2022",
+      "updatedDate": "05:51:52 PM 03-05-2022"
+    },
+    {
+      "id": 26,
+      "projectId": 3,
+      "driverManagementId": 11,
+      "vehicleRegestrationNo": "231564",
+      "deviceId": 2315648,
+      "insurerName": "",
+      "policyNumber": "",
+      "homeDepot": "",
+      "fleetNumber": "",
+      "description1": "",
+      "description2": "",
+      "status": true,
+      "createdOn": 1651559197,
+      "updatedOn": 1651649058,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 3,
+        "name": "testing3"
+      },
+      "project": {
+        "id": 3,
+        "name": "testing3"
+      },
+      "driverManagement": {
+        "id": 11,
+        "name": "countryname entr"
+      },
+      "createdDate": "06:26:37 AM 03-05-2022",
+      "updatedDate": "07:24:18 AM 04-05-2022"
+    },
+    {
+      "id": 29,
+      "projectId": 8,
+      "driverManagementId": 12,
+      "vehicleRegestrationNo": "1564",
+      "deviceId": 1234,
+      "insurerName": "",
+      "policyNumber": "",
+      "homeDepot": "",
+      "fleetNumber": "",
+      "description1": "",
+      "description2": "",
+      "status": true,
+      "createdOn": 1651655308,
+      "updatedOn": 1651655308,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 8,
+        "name": "test"
+      },
+      "project": {
+        "id": 8,
+        "name": "test"
+      },
+      "driverManagement": {
+        "id": 12,
+        "name": "CanCam"
+      },
+      "createdDate": "09:08:28 AM 04-05-2022",
+      "updatedDate": "09:08:28 AM 04-05-2022"
+    },
+    {
+      "id": 17,
+      "projectId": 4,
+      "driverManagementId": 12,
+      "vehicleRegestrationNo": "5632135",
+      "deviceId": 123456,
+      "insurerName": "",
+      "policyNumber": "",
+      "homeDepot": "",
+      "fleetNumber": "",
+      "description1": "",
+      "description2": "",
+      "status": false,
+      "createdOn": 1644316348,
+      "updatedOn": 1652347635,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 4,
+        "name": "test10"
+      },
+      "project": {
+        "id": 4,
+        "name": "test10"
+      },
+      "driverManagement": {
+        "id": 12,
+        "name": "CanCam"
+      },
+      "createdDate": "10:32:28 AM 08-02-2022",
+      "updatedDate": "09:27:15 AM 12-05-2022"
+    },
+    {
+      "id": 32,
+      "projectId": 3,
+      "driverManagementId": 1,
+      "vehicleRegestrationNo": "1234567890",
+      "deviceId": 1234567890,
+      "insurerName": "",
+      "policyNumber": "",
+      "homeDepot": "",
+      "fleetNumber": "",
+      "description1": "",
+      "description2": "",
+      "status": true,
+      "camera1Name": "adfgh",
+      "camera2Name": "dfghj",
+      "camera3Name": "dfghj",
+      "camera4Name": "dfghj",
+      "camera5Name": "dfghj",
+      "createdOn": 1652670429,
+      "updatedOn": 1652670429,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 3,
+        "name": "testing3"
+      },
+      "project": {
+        "id": 3,
+        "name": "testing3"
+      },
+      "driverManagement": {
+        "id": 1,
+        "name": "Tata motor cam pvt"
+      },
+      "createdDate": "03:07:09 AM 16-05-2022",
+      "updatedDate": "03:07:09 AM 16-05-2022"
+    },
+    {
+      "camera1Name": "camera1",
+      "camera2Name": "camera2",
+      "camera3Name": "camera3",
+      "camera4Name": "camera4",
+      "camera5Name": "camera5",
+      "description1": "",
+      "description2": "",
+      "fleetNumber": "",
+      "homeDepot": "",
+      "insurerName": "",
+      "policyNumber": "",
+      "vehicleRegestrationNo": "24567823456",
+      "deviceId": 2345898458445,
+      "driverManagementId": 12,
+      "organizationManagementId": 0,
+      "projectId": 0,
+      "status": false,
+      "apiId": "v1",
+      "id": 33
+    }
+  ],
+  "project": [
+    {
+      "id": 1,
+      "name": "Project 101",
+      "organizationId": 1,
+      "organizationName": "Tata motor cam pvt123",
+      "createdDate": "07:23:15 AM 28-12-2021",
+      "updatedDate": "07:23:15 AM 28-12-2021"
+    },
+    {
+      "id": 2,
+      "name": "Project 201",
+      "organizationId": 2,
+      "organizationName": "Tata motor cam pvt1",
+      "createdDate": "07:24:23 AM 28-12-2021",
+      "updatedDate": "07:24:23 AM 28-12-2021"
+    },
+    {
+      "id": 3,
+      "name": "testing3",
+      "organizationId": 3,
+      "organizationName": "testing3",
+      "createdDate": "09:55:48 AM 12-01-2022",
+      "updatedDate": "09:55:48 AM 12-01-2022"
+    },
+    {
+      "id": 4,
+      "name": "test10",
+      "organizationId": 4,
+      "organizationName": "test10",
+      "createdDate": "11:53:32 AM 13-01-2022",
+      "updatedDate": "11:53:32 AM 13-01-2022"
+    },
+    {
+      "id": 5,
+      "name": "Test11",
+      "organizationId": 5,
+      "organizationName": "Test11",
+      "createdDate": "11:57:52 AM 13-01-2022",
+      "updatedDate": "11:57:52 AM 13-01-2022"
+    },
+    {
+      "id": 6,
+      "name": "test12",
+      "organizationId": 6,
+      "organizationName": "test12",
+      "createdDate": "12:05:04 PM 13-01-2022",
+      "updatedDate": "12:05:04 PM 13-01-2022"
+    },
+    {
+      "id": 7,
+      "name": "hari",
+      "organizationId": 7,
+      "organizationName": "hari",
+      "createdDate": "08:06:47 AM 16-01-2022",
+      "updatedDate": "08:06:47 AM 16-01-2022"
+    },
+    {
+      "id": 8,
+      "name": "test",
+      "organizationId": 8,
+      "organizationName": "test",
+      "createdDate": "08:11:04 AM 16-01-2022",
+      "updatedDate": "08:11:04 AM 16-01-2022"
+    },
+    {
+      "id": 9,
+      "name": "Test1",
+      "organizationId": 9,
+      "organizationName": "Test1",
+      "createdDate": "12:41:54 PM 19-01-2022",
+      "updatedDate": "12:41:54 PM 19-01-2022"
+    },
+    {
+      "id": 10,
+      "name": "test2",
+      "organizationId": 10,
+      "organizationName": "test2",
+      "createdDate": "12:46:42 PM 19-01-2022",
+      "updatedDate": "12:46:42 PM 19-01-2022"
+    },
+    {
+      "id": 11,
+      "name": "Test3",
+      "organizationId": 11,
+      "organizationName": "Test3",
+      "createdDate": "07:30:41 AM 20-01-2022",
+      "updatedDate": "07:30:41 AM 20-01-2022"
+    },
+    {
+      "id": 12,
+      "name": "Test99",
+      "organizationId": 12,
+      "organizationName": "Test990",
+      "createdDate": "01:06:06 PM 28-02-2022",
+      "updatedDate": "01:06:06 PM 28-02-2022"
+    },
+    {
+      "id": 13,
+      "name": "Test99",
+      "organizationId": 13,
+      "organizationName": "Test99",
+      "createdDate": "09:25:32 AM 02-03-2022",
+      "updatedDate": "09:25:32 AM 02-03-2022"
+    },
+    {
+      "id": 14,
+      "name": "wr",
+      "organizationId": 14,
+      "organizationName": "wr",
+      "createdDate": "10:58:46 AM 11-04-2022",
+      "updatedDate": "10:58:46 AM 11-04-2022"
+    },
+    {
+      "id": 15,
+      "name": "Test4",
+      "organizationId": 15,
+      "organizationName": "Test4",
+      "createdDate": "06:17:15 AM 03-05-2022",
+      "updatedDate": "06:17:15 AM 03-05-2022"
+    },
+    {
+      "id": 16,
+      "name": "Test100",
+      "organizationId": 16,
+      "organizationName": "Test100",
+      "createdDate": "12:02:50 PM 05-05-2022",
+      "updatedDate": "12:02:50 PM 05-05-2022"
+    },
+    {
+      "id": 17,
+      "name": "Test98",
+      "organizationId": 17,
+      "organizationName": "Test98",
+      "createdDate": "12:14:35 PM 05-05-2022",
+      "updatedDate": "12:14:35 PM 05-05-2022"
+    },
+    {
+      "id": 18,
+      "name": "Test97",
+      "organizationId": 18,
+      "organizationName": "Test97",
+      "createdDate": "12:16:27 PM 05-05-2022",
+      "updatedDate": "12:16:27 PM 05-05-2022"
+    },
+    {
+      "id": 19,
+      "name": "Test5",
+      "organizationId": 19,
+      "organizationName": "Test5",
+      "createdDate": "08:02:28 AM 12-05-2022",
+      "updatedDate": "08:02:28 AM 12-05-2022"
+    }
+  ],
+  "driver-management": [
+    {
+      "id": 28,
+      "name": "Test4",
+      "organizationId": 6,
+      "organizationName": "test12",
+      "projectId": 7,
+      "projectName": "hari",
+      "countryName": null,
+      "mobileNo": "4569871230",
+      "emergencyContact": "0213654879",
+      "emergencyContactCode": "+27",
+      "mobileNoCode": "+27",
+      "email": "test4@gmail.com",
+      "status": false,
+      "createdOn": 1643718596,
+      "updatedOn": 1644554275,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 6,
+        "name": "test12"
+      },
+      "project": {
+        "id": 7,
+        "name": "hari"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Tata motor cam pvt",
+      "organizationId": 1,
+      "organizationName": "Tata motor cam pvt123",
+      "projectId": 1,
+      "projectName": "Project 101",
+      "countryName": null,
+      "mobileNo": "9897978514",
+      "emergencyContact": "9876543210",
+      "emergencyContactCode": "+91",
+      "mobileNoCode": "+91",
+      "email": "abc@gmail.comm",
+      "status": true,
+      "createdOn": 1640676195,
+      "updatedOn": 1644554411,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 1,
+        "name": "Tata motor cam pvt123"
+      },
+      "project": {
+        "id": 1,
+        "name": "Project 101"
+      }
+    },
+    {
+      "id": 26,
+      "name": "test31",
+      "organizationId": 4,
+      "organizationName": "test10",
+      "projectId": 1,
+      "projectName": "Project 101",
+      "countryName": null,
+      "mobileNo": "5645898712",
+      "emergencyContact": "5645898711",
+      "emergencyContactCode": "+30",
+      "mobileNoCode": "+31",
+      "email": "test3@test.com",
+      "status": false,
+      "createdOn": 1642663941,
+      "updatedOn": 1644554726,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 4,
+        "name": "test10"
+      },
+      "project": {
+        "id": 1,
+        "name": "Project 101"
+      }
+    },
+    {
+      "id": 12,
+      "name": "CanCam",
+      "organizationId": 1,
+      "organizationName": "Tata motor cam pvt123",
+      "projectId": 1,
+      "projectName": "Project 101",
+      "countryName": null,
+      "mobileNo": "21543656541",
+      "emergencyContact": "9565845484",
+      "emergencyContactCode": "+27",
+      "mobileNoCode": "+27",
+      "email": "support@camhard.com",
+      "status": true,
+      "createdOn": 1641558687,
+      "updatedOn": 1645633096,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 1,
+        "name": "Tata motor cam pvt123"
+      },
+      "project": {
+        "id": 1,
+        "name": "Project 101"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Driver 3",
+      "organizationId": 1,
+      "organizationName": "Tata motor cam pvt123",
+      "projectId": 1,
+      "projectName": "Project 101",
+      "countryName": null,
+      "mobileNo": "21543656541",
+      "emergencyContact": "9565845484",
+      "emergencyContactCode": "+27",
+      "mobileNoCode": "+20",
+      "email": "support@camhard.com",
+      "status": true,
+      "createdOn": 1641560306,
+      "updatedOn": 1645636053,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 1,
+        "name": "Tata motor cam pvt123"
+      },
+      "project": {
+        "id": 1,
+        "name": "Project 101"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Test10",
+      "organizationId": 4,
+      "organizationName": "test10",
+      "projectId": 3,
+      "projectName": "testing3",
+      "countryName": "",
+      "mobileNo": "0213546987",
+      "emergencyContact": "0216654789",
+      "emergencyContactCode": "+20",
+      "mobileNoCode": "+20",
+      "email": "test10@xyz.com",
+      "status": false,
+      "createdOn": 1651566007,
+      "updatedOn": 1651566007,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 4,
+        "name": "test10"
+      },
+      "project": {
+        "id": 3,
+        "name": "testing3"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Test100",
+      "organizationId": 16,
+      "organizationName": "Test100",
+      "projectId": 16,
+      "projectName": "Test100",
+      "countryName": null,
+      "mobileNo": null,
+      "emergencyContact": "0216654789",
+      "emergencyContactCode": "+20",
+      "mobileNoCode": "+20",
+      "email": null,
+      "status": true,
+      "createdOn": 1651752170,
+      "updatedOn": 1651752170,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 16,
+        "name": "Test100"
+      },
+      "project": {
+        "id": 16,
+        "name": "Test100"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Test98",
+      "organizationId": 17,
+      "organizationName": "Test98",
+      "projectId": 17,
+      "projectName": "Test98",
+      "countryName": null,
+      "mobileNo": null,
+      "emergencyContact": "0216654789",
+      "emergencyContactCode": "+20",
+      "mobileNoCode": "+20",
+      "email": null,
+      "status": true,
+      "createdOn": 1651752875,
+      "updatedOn": 1651752875,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 17,
+        "name": "Test98"
+      },
+      "project": {
+        "id": 17,
+        "name": "Test98"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Test97",
+      "organizationId": 18,
+      "organizationName": "Test97",
+      "projectId": 18,
+      "projectName": "Test97",
+      "countryName": null,
+      "mobileNo": null,
+      "emergencyContact": "0216654789",
+      "emergencyContactCode": "+20",
+      "mobileNoCode": "+20",
+      "email": null,
+      "status": true,
+      "createdOn": 1651752987,
+      "updatedOn": 1651752987,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 18,
+        "name": "Test97"
+      },
+      "project": {
+        "id": 18,
+        "name": "Test97"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Test5",
+      "organizationId": 19,
+      "organizationName": "Test5",
+      "projectId": 19,
+      "projectName": "Test5",
+      "countryName": null,
+      "mobileNo": null,
+      "emergencyContact": "0216654789",
+      "emergencyContactCode": "+20",
+      "mobileNoCode": "+20",
+      "email": null,
+      "status": true,
+      "createdOn": 1652342549,
+      "updatedOn": 1652342549,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 19,
+        "name": "Test5"
+      },
+      "project": {
+        "id": 19,
+        "name": "Test5"
+      }
+    },
+    {
+      "id": 11,
+      "name": "countryname entr",
+      "organizationId": 1,
+      "organizationName": "Tata motor cam pvt123",
+      "projectId": 1,
+      "projectName": "Project 101",
+      "countryName": "tat",
+      "mobileNo": "7755669988",
+      "emergencyContact": "99665588770",
+      "emergencyContactCode": "+855",
+      "mobileNoCode": "+27",
+      "email": "dj0024javia@gmail.com",
+      "status": false,
+      "createdOn": 1641557824,
+      "updatedOn": 1652343022,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 1,
+        "name": "Tata motor cam pvt123"
+      },
+      "project": {
+        "id": 1,
+        "name": "Project 101"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Test12",
+      "organizationId": 4,
+      "organizationName": "test10",
+      "projectId": 1,
+      "projectName": "Project 101",
+      "countryName": "",
+      "mobileNo": "0147852369",
+      "emergencyContact": "3698521470",
+      "emergencyContactCode": "+32",
+      "mobileNoCode": "+20",
+      "email": "test1@gmail.com",
+      "status": false,
+      "createdOn": 1652348209,
+      "updatedOn": 1652348233,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 4,
+        "name": "test10"
+      },
+      "project": {
+        "id": 1,
+        "name": "Project 101"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Test4",
+      "organizationId": 4,
+      "organizationName": "test10",
+      "projectId": 2,
+      "projectName": "Project 201",
+      "countryName": "",
+      "mobileNo": "5214789630",
+      "emergencyContact": "0231456987",
+      "emergencyContactCode": "+7",
+      "mobileNoCode": "+20",
+      "email": "test4@gmail.com",
+      "status": false,
+      "createdOn": 1652352360,
+      "updatedOn": 1652352360,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 4,
+        "name": "test10"
+      },
+      "project": {
+        "id": 2,
+        "name": "Project 201"
+      }
+    },
+    {
+      "id": 34,
+      "name": "test3",
+      "organizationId": 3,
+      "organizationName": "testing3",
+      "projectId": 1,
+      "projectName": "Project 101",
+      "countryName": "",
+      "mobileNo": "0213654789",
+      "emergencyContact": "0231654789",
+      "emergencyContactCode": "+27",
+      "mobileNoCode": "+30",
+      "email": "test3@gmail.com",
+      "status": true,
+      "createdOn": 1651467994,
+      "updatedOn": 1653988283,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "organizationManagement": {
+        "id": 3,
+        "name": "testing3"
+      },
+      "project": {
+        "id": 1,
+        "name": "Project 101"
+      }
+    }
+  ],
+  "organization-management-total-device": [
+    {
+      "password": "123456789@@Er",
+      "userName": "viral patel",
+      "service": "virap patel",
+      "createdOn": 1640676195,
+      "email": "viral123@gmail.com",
+      "updatedOn": 1651735548,
+      "officeNumber": "8511391043",
+      "organizationAddress": "dsfdsfdsfdsfds",
+      "postalCode": "394248",
+      "renewalDate": "2022-05-31",
+      "website": "http://viral.com",
+      "logo": true,
+      "city": "surat",
+      "alternativeEmail": "patel@gmail.com",
+      "contactPersonMobile": "8511391043",
+      "contactPersonMobileCode": "+91",
+      "contactPersonName": "viral",
+      "faxNumber": "8511391043",
+      "totalDevice": 3,
+      "name": "Tata motor cam pvt123",
+      "id": 1,
+      "state": "gujrat",
+      "country": "india"
+    },
+    {
+      "password": "123456789",
+      "userName": "viral patel1",
+      "service": "virap patel",
+      "createdOn": 1640676263,
+      "email": "viral@gmail.com",
+      "updatedOn": 1640676263,
+      "officeNumber": "8511391045",
+      "organizationAddress": "at po valvada",
+      "postalCode": "394248",
+      "renewalDate": "2022-03-20",
+      "website": "http://viral.com",
+      "logo": true,
+      "city": "surat",
+      "alternativeEmail": "patel@gmail.com",
+      "contactPersonMobile": "8511391042",
+      "contactPersonMobileCode": "+91",
+      "contactPersonName": "viral",
+      "faxNumber": "8511391023",
+      "totalDevice": 2,
+      "name": "Tata motor cam pvt1",
+      "id": 2,
+      "state": "gujrat",
+      "country": "india"
+    },
+    {
+      "password": "Sd$654897123",
+      "userName": "test3",
+      "service": "Production",
+      "createdOn": 1641981348,
+      "email": "test31@gmail.com",
+      "updatedOn": 1652342387,
+      "officeNumber": "6458971235",
+      "organizationAddress": "",
+      "postalCode": "110014",
+      "renewalDate": "2022-05-26",
+      "website": "http://google.com",
+      "logo": true,
+      "city": "Ahmedabad",
+      "alternativeEmail": "test31@gmail.com",
+      "contactPersonMobile": "6458971235",
+      "contactPersonMobileCode": "+20",
+      "contactPersonName": "Test3 contact",
+      "faxNumber": "6458971235",
+      "totalDevice": 2,
+      "name": "testing3",
+      "id": 3,
+      "state": "Gujurat",
+      "country": "India"
+    },
+    {
+      "password": "564As#kljhgj",
+      "userName": "testing10",
+      "service": "It",
+      "createdOn": 1642074812,
+      "email": "test10@gmail.com",
+      "updatedOn": 1642074812,
+      "officeNumber": "6547891235",
+      "organizationAddress": "",
+      "postalCode": "110014",
+      "renewalDate": "2022-12-12",
+      "website": "https://google.com",
+      "logo": true,
+      "city": "Ahmeabad",
+      "alternativeEmail": "test101@gmail.com",
+      "contactPersonMobile": "6549782135",
+      "contactPersonMobileCode": "+20",
+      "contactPersonName": "test10",
+      "faxNumber": "6547891235",
+      "totalDevice": 1,
+      "name": "test10",
+      "id": 4,
+      "state": "Gujurat",
+      "country": "India"
+    },
+    {
+      "password": "As#56479",
+      "userName": "testing11",
+      "service": "IT",
+      "createdOn": 1642075072,
+      "email": "test11@gmail.com",
+      "updatedOn": 1642075072,
+      "officeNumber": "6547891235",
+      "organizationAddress": "",
+      "postalCode": "110011",
+      "renewalDate": "2022-12-12",
+      "website": "http://google.com",
+      "logo": true,
+      "city": "Ahmedabad",
+      "alternativeEmail": "test111@gmail.com",
+      "contactPersonMobile": "6549782315",
+      "contactPersonMobileCode": "+20",
+      "contactPersonName": "Test11",
+      "faxNumber": "6548792135",
+      "totalDevice": 0,
+      "name": "Test11",
+      "id": 5,
+      "state": "Gujurat",
+      "country": "India"
+    },
+    {
+      "password": "As#jlkkjgjg546",
+      "userName": "trsettdyhj",
+      "service": "uhkjnm",
+      "createdOn": 1642075504,
+      "email": "test12@gmail.com",
+      "updatedOn": 1642075504,
+      "officeNumber": "4563217895",
+      "organizationAddress": "",
+      "postalCode": "111000",
+      "renewalDate": "2022-12-12",
+      "website": "http://google.com",
+      "logo": true,
+      "city": "jlkmk;lm.",
+      "alternativeEmail": "test12@gmail.com",
+      "contactPersonMobile": "4563217895",
+      "contactPersonMobileCode": "+20",
+      "contactPersonName": "kjghgbcv",
+      "faxNumber": "4563217895",
+      "totalDevice": 0,
+      "name": "test12",
+      "id": 6,
+      "state": "fdcgh",
+      "country": "hjkn"
+    },
+    {
+      "password": "gkhS#5649+312",
+      "userName": "testibbg",
+      "service": "xyz",
+      "createdOn": 1642320407,
+      "email": "testing@gmail.com",
+      "updatedOn": 1645672138,
+      "officeNumber": "4567923125",
+      "organizationAddress": "abc yz",
+      "postalCode": "110011",
+      "renewalDate": "2022-02-25",
+      "website": "http://google.com",
+      "logo": true,
+      "city": "ssuurraatt",
+      "alternativeEmail": "testing1@gmail.com",
+      "contactPersonMobile": "4567923125",
+      "contactPersonMobileCode": "+20",
+      "contactPersonName": "gs",
+      "faxNumber": "4567923125",
+      "totalDevice": 0,
+      "name": "hari",
+      "id": 7,
+      "state": "guj",
+      "country": "india"
+    },
+    {
+      "password": "AS@jk546/",
+      "userName": "test10",
+      "service": "",
+      "createdOn": 1642320664,
+      "email": "test@gmail.com",
+      "updatedOn": 1642320664,
+      "officeNumber": "35745681",
+      "organizationAddress": "",
+      "postalCode": "111113",
+      "renewalDate": "2022-01-27",
+      "website": "http://google.com",
+      "logo": true,
+      "city": "",
+      "alternativeEmail": "test@gmail.com",
+      "contactPersonMobile": "5641325648",
+      "contactPersonMobileCode": "+31",
+      "contactPersonName": "test test",
+      "faxNumber": "35745681",
+      "totalDevice": 2,
+      "name": "test",
+      "id": 8,
+      "state": "",
+      "country": ""
+    },
+    {
+      "password": "Aw@54698721",
+      "userName": "testing1",
+      "service": "IT",
+      "createdOn": 1642596113,
+      "email": "test1@gmail.com",
+      "updatedOn": 1642596113,
+      "officeNumber": "5698231477",
+      "organizationAddress": "",
+      "postalCode": "110000",
+      "renewalDate": "2022-01-31",
+      "website": "http://google.com",
+      "logo": true,
+      "city": "Ahmedabad",
+      "alternativeEmail": "test11@gmail.com",
+      "contactPersonMobile": "5698231477",
+      "contactPersonMobileCode": "+31",
+      "contactPersonName": "TestingPerson1",
+      "faxNumber": "5698231477",
+      "totalDevice": 0,
+      "name": "Test1",
+      "id": 9,
+      "state": "Gujurat",
+      "country": "India"
+    },
+    {
+      "password": "Zx@54698",
+      "userName": "testing2",
+      "service": "Production",
+      "createdOn": 1642596401,
+      "email": "test2@gmail.com",
+      "updatedOn": 1642596401,
+      "officeNumber": "2359741561",
+      "organizationAddress": "",
+      "postalCode": "110012",
+      "renewalDate": "2022-01-29",
+      "website": "http://google1.com",
+      "logo": true,
+      "city": "Ahmedabad",
+      "alternativeEmail": "test21@gmail.com",
+      "contactPersonMobile": "2359741561",
+      "contactPersonMobileCode": "+32",
+      "contactPersonName": "testPerson2",
+      "faxNumber": "2359741561",
+      "totalDevice": 0,
+      "name": "test2",
+      "id": 10,
+      "state": "Gujurat",
+      "country": "India"
+    },
+    {
+      "password": "Ds@456512",
+      "userName": "Testing3",
+      "service": "Production",
+      "createdOn": 1642663841,
+      "email": "tset3@test.com",
+      "updatedOn": 1642663841,
+      "officeNumber": "5648971325",
+      "organizationAddress": "Test3 Address",
+      "postalCode": "100000",
+      "renewalDate": "2022-01-29",
+      "website": "http://test3.com",
+      "logo": true,
+      "city": "",
+      "alternativeEmail": "tset3@test1.com",
+      "contactPersonMobile": "5648971325",
+      "contactPersonMobileCode": "+31",
+      "contactPersonName": "test3 contact",
+      "faxNumber": "5648971325",
+      "totalDevice": 0,
+      "name": "Test3",
+      "id": 11,
+      "state": "",
+      "country": ""
+    },
+    {
+      "password": "@We321654",
+      "userName": "Test99",
+      "service": "it",
+      "createdOn": 1646053565,
+      "email": "test99@gmaail.com",
+      "updatedOn": 1646053638,
+      "officeNumber": "0147852369",
+      "organizationAddress": "gujurat",
+      "postalCode": "110012",
+      "renewalDate": "2022-03-26",
+      "website": "http://test99.com",
+      "logo": true,
+      "city": "ahmedabad",
+      "alternativeEmail": "test99@gmail.com",
+      "contactPersonMobile": "3216458970",
+      "contactPersonMobileCode": "+32",
+      "contactPersonName": "testing99",
+      "faxNumber": "2365897410",
+      "totalDevice": 0,
+      "name": "Test990",
+      "id": 12,
+      "state": "Gujurat",
+      "country": "ijndia"
+    },
+    {
+      "password": "@wE5641238",
+      "userName": "Test99User",
+      "service": "",
+      "createdOn": 1646213132,
+      "email": "test99@gmail.com",
+      "updatedOn": 1646213132,
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "110012",
+      "renewalDate": "2022-03-31",
+      "website": "http://test99.com",
+      "logo": true,
+      "city": "",
+      "alternativeEmail": "test991@gmail.com",
+      "contactPersonMobile": "123658974056",
+      "contactPersonMobileCode": "+33",
+      "contactPersonName": "test99",
+      "faxNumber": "0231654789741",
+      "totalDevice": 0,
+      "name": "Test99",
+      "id": 13,
+      "state": "",
+      "country": ""
+    },
+    {
+      "password": "12345678",
+      "userName": "343423SF5",
+      "service": "345",
+      "createdOn": 1649674725,
+      "email": "wer@gmail.com",
+      "updatedOn": 1649674725,
+      "officeNumber": "24234243423",
+      "organizationAddress": "aR",
+      "postalCode": "453455",
+      "renewalDate": "2022-04-25",
+      "website": "35",
+      "logo": true,
+      "city": "er",
+      "alternativeEmail": "ee",
+      "contactPersonMobile": "2255663388",
+      "contactPersonMobileCode": "34",
+      "contactPersonName": "er",
+      "faxNumber": "wr",
+      "totalDevice": 0,
+      "name": "wr",
+      "id": 14,
+      "state": "35",
+      "country": "sfsd"
+    },
+    {
+      "password": "Test4@546321",
+      "userName": "test4@xyz.com",
+      "service": "",
+      "createdOn": 1651558635,
+      "email": "test4@xyz.com",
+      "updatedOn": 1651558635,
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "100014",
+      "renewalDate": "2022-05-27",
+      "website": "http://www.google.com",
+      "logo": true,
+      "city": "",
+      "alternativeEmail": "",
+      "contactPersonMobile": "1478523690",
+      "contactPersonMobileCode": "+27",
+      "contactPersonName": "Test4",
+      "faxNumber": "2365874109",
+      "totalDevice": 0,
+      "name": "Test4",
+      "id": 15,
+      "state": "",
+      "country": ""
+    },
+    {
+      "password": "Test@100",
+      "userName": "test100",
+      "service": "",
+      "createdOn": 1651752170,
+      "email": "test100@gmail.com",
+      "updatedOn": 1651752170,
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "110000",
+      "renewalDate": "2022-05-31",
+      "website": "http://www.google.com",
+      "logo": true,
+      "city": "",
+      "alternativeEmail": "",
+      "contactPersonMobile": "0231654789",
+      "contactPersonMobileCode": "+27",
+      "contactPersonName": "test100",
+      "faxNumber": "2589631047",
+      "totalDevice": 0,
+      "name": "Test100",
+      "id": 16,
+      "state": "",
+      "country": ""
+    },
+    {
+      "password": "Test98@12",
+      "userName": "test98",
+      "service": "",
+      "createdOn": 1651752875,
+      "email": "test98@xyz.com",
+      "updatedOn": 1651752875,
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "110000",
+      "renewalDate": "2022-05-28",
+      "website": "http://www.xyz.com",
+      "logo": true,
+      "city": "",
+      "alternativeEmail": "",
+      "contactPersonMobile": "0236589741",
+      "contactPersonMobileCode": "+7",
+      "contactPersonName": "test98",
+      "faxNumber": "0147852369",
+      "totalDevice": 0,
+      "name": "Test98",
+      "id": 17,
+      "state": "",
+      "country": ""
+    },
+    {
+      "password": "2Jenish@1234",
+      "userName": "jenish",
+      "service": "",
+      "createdOn": 1651752987,
+      "email": "aaaaa@gmail.com",
+      "updatedOn": 1651752987,
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "123443333",
+      "renewalDate": "2022-05-25",
+      "website": "http://google.com",
+      "logo": true,
+      "city": "",
+      "alternativeEmail": "",
+      "contactPersonMobile": "1234567890",
+      "contactPersonMobileCode": "+91",
+      "contactPersonName": "jenish",
+      "faxNumber": "33444444443",
+      "totalDevice": 0,
+      "name": "Test97",
+      "id": 18,
+      "state": "",
+      "country": ""
+    },
+    {
+      "password": "Test5@56487",
+      "userName": "testing5@gmail.com",
+      "service": "",
+      "createdOn": 1652342548,
+      "email": "test5@gmail.com",
+      "updatedOn": 1652342548,
+      "officeNumber": "",
+      "organizationAddress": "",
+      "postalCode": "112112",
+      "renewalDate": "2022-05-14",
+      "website": "http://www.test5.com",
+      "logo": true,
+      "city": "",
+      "alternativeEmail": "",
+      "contactPersonMobile": "2036541789",
+      "contactPersonMobileCode": "+20",
+      "contactPersonName": "test5",
+      "faxNumber": "0147852369",
+      "totalDevice": 0,
+      "name": "Test5",
+      "id": 19,
+      "state": "",
+      "country": ""
+    }
+  ],
+  "support-ticket": [
+    {
+      "id": 1,
+      "date": "2022-06-07T10:53:34.546Z",
+      "organizationId": 1,
+      "contact": 1234567890,
+      "message": "hello",
+      "status": true,
+      "messageStatus": true
+    },
+    {
+      "id": 2,
+      "date": "2022-06-07T10:53:34.546Z",
+      "organizationId": {
+        "id": 7,
+        "name": "test2"
+      },
+      "contact": 1234567890,
+      "message": "hello",
+      "status": true,
+      "messageStatus": true
+    },
+    {
+      "id": 3,
+      "date": "2022-06-07T10:53:34.546Z",
+      "organizationId": {
+        "id": 8,
+        "name": "test4"
+      },
+      "contact": 1234567890,
+      "message": "hello",
+      "status": true,
+      "messageStatus": true
+    },
+    {
+      "id": 4,
+      "date": "2022-06-07T10:53:34.546Z",
+      "organizationId": {
+        "id": 9,
+        "name": "test5"
+      },
+      "contact": 1234567890,
+      "message": "hello",
+      "status": true,
+      "messageStatus": true
+    },
+    {
+      "message": "hfff",
+      "contact": "",
+      "organizationId": 5,
+      "messageStatus": true,
+      "status": true,
+      "id": 5
+    },
+    {
+      "message": "ertyj",
+      "contact": "1234567890",
+      "organizationId": {
+        "id": 4,
+        "name": "test10"
+      },
+      "messageStatus": true,
+      "status": true,
+      "date": "2022-06-07T10:49:06.642Z",
+      "id": 6
+    },
+    {
+      "message": "dthjfs",
+      "contact": "1234567890",
+      "organizationId": {
+        "id": 5,
+        "name": "Test11"
+      },
+      "messageStatus": false,
+      "status": false,
+      "date": "2022-06-07T10:53:34.546Z",
+      "id": 7
+    },
+    {
+      "message": "hfff",
+      "contact": "1234567890",
+      "organizationId": 19,
+      "messageStatus": true,
+      "status": true,
+      "date": "2022-07-14T10:24:01.370Z",
+      "apiId": "v1",
+      "id": 8
+    },
+    {
+      "message": "dthjfs",
+      "contact": "1234567890",
+      "organizationId": {
+        "id": 3,
+        "name": "testing3"
+      },
+      "messageStatus": true,
+      "status": true,
+      "date": "2022-07-15T03:07:09.927Z",
+      "apiId": "v1",
+      "id": 9
+    },
+    {
+      "message": "ertyj",
+      "contact": "1234567890",
+      "organizationId": {
+        "id": 18,
+        "name": "Test97"
+      },
+      "messageStatus": true,
+      "status": true,
+      "date": "2022-07-15T03:07:48.456Z",
+      "apiId": "v1",
+      "id": 10
+    },
+    {
+      "message": "hfff",
+      "contact": "1234567890",
+      "organizationId": {
+        "id": 3,
+        "name": "testing3"
+      },
+      "messageStatus": true,
+      "status": false,
+      "date": "2022-07-18T10:52:28.331Z",
+      "apiId": "v1",
+      "id": 11
+    },
+    {
+      "message": "adadiqaidb",
+      "contact": "1234567890",
+      "organizationId": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "messageStatus": true,
+      "status": false,
+      "date": "2022-07-18T10:56:22.456Z",
+      "apiId": "v1",
+      "id": 12
+    }
+  ],
+  "geo-fencing": [
+    {
+      "deviceId": 1010101010,
+      "endTime": null,
+      "fenceNo": "1234",
+      "organization": {
+        "name": "Tata motor cam pvt1",
+        "id": 4
+      },
+      "project": {
+        "name": "Project 101",
+        "id": 2
+      },
+      "radius": "23",
+      "startTime": null,
+      "vehicleRegNo": 10
+    },
+    {
+      "vehicleRegNo": 10,
+      "startTime": 1655290968646,
+      "endTime": null,
+      "deviceId": 1010101010,
+      "organization": {
+        "name": "Tata motor cam pvt1",
+        "id": 3
+      },
+      "project": {
+        "name": "Project 101",
+        "id": 1
+      },
+      "radius": "23",
+      "fenceNo": "1234",
+      "id": 1655290968674
+    },
+    {
+      "vehicleRegNo": 6,
+      "startTime": 1655291056773,
+      "endTime": null,
+      "deviceId": 1010101010,
+      "organization": {
+        "name": "Tata motor cam pvt1",
+        "id": 2
+      },
+      "project": {
+        "name": "Project 101",
+        "id": 1
+      },
+      "radius": "23",
+      "fenceNo": "1234",
+      "id": 1655291056785
+    },
+    {
+      "vehicleRegNo": 32,
+      "startTime": 1655291131523,
+      "endTime": null,
+      "deviceId": 1010101010,
+      "organization": {
+        "name": "Tata motor cam pvt1",
+        "id": 2
+      },
+      "project": {
+        "name": "Project 101",
+        "id": 4
+      },
+      "radius": "23",
+      "fenceNo": "1234",
+      "id": 1655291131536
+    },
+    {
+      "vehicleRegNo": 32,
+      "startTime": 1655291158135,
+      "endTime": null,
+      "deviceId": 1010101010,
+      "organization": {
+        "name": "Tata motor cam pvt1",
+        "id": 2
+      },
+      "project": {
+        "name": "Project 101",
+        "id": 1
+      },
+      "radius": "23",
+      "fenceNo": "1234",
+      "id": 1655291158148
+    },
+    {
+      "vehicleRegNo": 10,
+      "startTime": 1655296073688,
+      "endTime": null,
+      "deviceId": 1010101010,
+      "organization": {
+        "name": "Tata motor cam pvt1",
+        "id": 3
+      },
+      "project": {
+        "name": "Project 101",
+        "id": 2
+      },
+      "radius": "23",
+      "fenceNo": "1234",
+      "id": 1655296073722
+    },
+    {
+      "vehicleRegNo": 22,
+      "startTime": 1655791721737,
+      "endTime": null,
+      "deviceId": 1010101010,
+      "organization": {
+        "name": "Tata motor cam pvt1",
+        "id": 3
+      },
+      "project": {
+        "name": "Project 101",
+        "id": 2
+      },
+      "radius": "23",
+      "fenceNo": "1234",
+      "id": 1655791721753
+    },
+    {
+      "vehicleReg": {
+        "vehicleRegestrationNo": "GJ-12-VP-83956",
+        "deviceId": 11111112
+      },
+      "startTime": 1658397679475,
+      "endTime": null,
+      "deviceId": 1010101010,
+      "organization": {
+        "name": "Tata motor cam pvt1",
+        "id": 2
+      },
+      "project": {
+        "name": "Project 101",
+        "id": 1
+      },
+      "radius": "23",
+      "fenceNo": "1234",
+      "id": 1658397679515
+    }
+  ],
+  "common-configuration": [
+    {
+      "organization": {
+        "id": 8,
+        "name": "test"
+      },
+      "organizationTo": {
+        "id": 4,
+        "name": "test10"
+      },
+      "organizationFrom": {
+        "id": 4,
+        "name": "test10"
+      },
+      "createOn": "2022-06-21T10:08:55.194Z",
+      "status": false,
+      "id": 1655806146233
+    },
+    {
+      "id": 1655806683326,
+      "organization": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "organizationTo": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "organizationFrom": {
+        "id": 1,
+        "name": "Tata motor cam pvt123"
+      },
+      "createOn": "2022-06-21T10:17:55.037Z",
+      "status": false
+    },
+    {
+      "id": 1658133844401,
+      "organization": {
+        "id": 6,
+        "name": "test12"
+      },
+      "organizationTo": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "organizationFrom": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "createOn": "2022-07-18T08:44:04.134Z",
+      "status": false
+    },
+    {
+      "id": 1658134018318,
+      "organization": {
+        "id": 7,
+        "name": "hari"
+      },
+      "organizationTo": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "organizationFrom": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "createOn": "2022-07-18T08:46:58.304Z",
+      "status": true
+    },
+    {
+      "id": 1658135278256,
+      "organization": {
+        "id": 3,
+        "name": "testing3"
+      },
+      "organizationTo": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "organizationFrom": {
+        "id": 2,
+        "name": "Tata motor cam pvt1"
+      },
+      "createOn": "2022-07-18T09:07:58.238Z",
+      "status": true
+    }
+  ],
+  "project-management": [
+    {
+      "alternativeEmail": "g1@c.o",
+      "city": "Rajkot",
+      "contactPersonMobile": "897788978978",
+      "contactPersonName": "DJ",
+      "contactPersonMobileCode": "+91",
+      "organizationId": 24,
+      "organizationName": "TS_DEV",
+      "country": "India",
+      "email": "g@am.c",
+      "faxNumber": "64498498489",
+      "logo": true,
+      "name": "Project 1",
+      "officeNumber": "",
+      "organizationAddress": "Projct address",
+      "postalCode": "360005",
+      "service": "",
+      "state": "Gujarat",
+      "userName": "viral patel11657882170425",
+      "password": "123456789",
+      "website": "http://viral.com",
+      "renewalDate": "2025-04-30T18:30:00.000Z",
+      "id": 1657882170465
+    },
+    {
+      "alternativeEmail": "g2@c.o",
+      "city": "Rajkot",
+      "contactPersonMobile": "6548787885",
+      "contactPersonName": "ABCD 1234",
+      "contactPersonMobileCode": "+91",
+      "country": "India",
+      "email": "g1@c.o",
+      "organizationId": 24,
+      "organizationName": "TS_DEV",
+      "faxNumber": "8797897988",
+      "logo": true,
+      "name": "Project B",
+      "officeNumber": "",
+      "organizationAddress": "Bal;s;jfasjf",
+      "postalCode": "360005",
+      "service": "",
+      "state": "Gujarat",
+      "userName": "viral patel11658205705463",
+      "password": "123456789",
+      "website": "http://viral.com",
+      "renewalDate": "2025-04-30T18:30:00.000Z",
+      "id": 1658205705498
+    }
+  ]
+}
